@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		231772F9635E2FCDCFBA25E9 /* Pods_Hiral_CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98F62CBA9B09617A267DFF2D /* Pods_Hiral_CoreData.framework */; };
+		E349A97E26F2F9CE00868A69 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349A97D26F2F9CE00868A69 /* Utilities.swift */; };
+		E349A98126F3019B00868A69 /* Users+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349A97F26F3019B00868A69 /* Users+CoreDataClass.swift */; };
+		E349A98226F3019B00868A69 /* Users+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349A98026F3019B00868A69 /* Users+CoreDataProperties.swift */; };
+		E349A98526F3021700868A69 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E349A98426F3021700868A69 /* CoreData.framework */; };
+		E349A98826F302E500868A69 /* DatabaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E349A98726F302E500868A69 /* DatabaseHelper.swift */; };
 		E3514D3926F20ABE00DC754D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D3826F20ABE00DC754D /* AppDelegate.swift */; };
 		E3514D3B26F20ABE00DC754D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D3A26F20ABE00DC754D /* SceneDelegate.swift */; };
-		E3514D3D26F20ABE00DC754D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D3C26F20ABE00DC754D /* ViewController.swift */; };
+		E3514D3D26F20ABE00DC754D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D3C26F20ABE00DC754D /* LoginViewController.swift */; };
 		E3514D4026F20ABE00DC754D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3514D3E26F20ABE00DC754D /* Main.storyboard */; };
 		E3514D4326F20ABE00DC754D /* Hiral_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3514D4126F20ABE00DC754D /* Hiral_CoreData.xcdatamodeld */; };
 		E3514D4526F20AC700DC754D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3514D4426F20AC700DC754D /* Assets.xcassets */; };
 		E3514D4826F20AC700DC754D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3514D4626F20AC700DC754D /* LaunchScreen.storyboard */; };
+		E3514D5426F2179D00DC754D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D5326F2179D00DC754D /* SignupViewController.swift */; };
+		E3514D5926F21EA500DC754D /* DataDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D5826F21EA500DC754D /* DataDisplayViewController.swift */; };
+		E3514D5D26F2233200DC754D /* String + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D5C26F2233200DC754D /* String + Extension.swift */; };
+		E3514D5F26F2235800DC754D /* UIAlertController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D5E26F2235800DC754D /* UIAlertController + Extension.swift */; };
+		E3514D6126F2237E00DC754D /* UIViewController + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3514D6026F2237E00DC754D /* UIViewController + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		98F62CBA9B09617A267DFF2D /* Pods_Hiral_CoreData.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hiral_CoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBBA17C8802E2CB77F791144 /* Pods-Hiral_CoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hiral_CoreData.debug.xcconfig"; path = "Target Support Files/Pods-Hiral_CoreData/Pods-Hiral_CoreData.debug.xcconfig"; sourceTree = "<group>"; };
+		E349A97D26F2F9CE00868A69 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E349A97F26F3019B00868A69 /* Users+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataClass.swift"; sourceTree = "<group>"; };
+		E349A98026F3019B00868A69 /* Users+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Users+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E349A98426F3021700868A69 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E349A98726F302E500868A69 /* DatabaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseHelper.swift; sourceTree = "<group>"; };
 		E3514D3526F20ABE00DC754D /* Hiral_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hiral_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3514D3826F20ABE00DC754D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3514D3A26F20ABE00DC754D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3514D3C26F20ABE00DC754D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3514D3C26F20ABE00DC754D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E3514D3F26F20ABE00DC754D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3514D4226F20ABE00DC754D /* Hiral_CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hiral_CoreData.xcdatamodel; sourceTree = "<group>"; };
 		E3514D4426F20AC700DC754D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3514D4726F20AC700DC754D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3514D4926F20AC700DC754D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3514D5326F2179D00DC754D /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		E3514D5826F21EA500DC754D /* DataDisplayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataDisplayViewController.swift; sourceTree = "<group>"; };
+		E3514D5C26F2233200DC754D /* String + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Extension.swift"; sourceTree = "<group>"; };
+		E3514D5E26F2235800DC754D /* UIAlertController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIAlertController + Extension.swift"; sourceTree = "<group>"; };
+		E3514D6026F2237E00DC754D /* UIViewController + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController + Extension.swift"; sourceTree = "<group>"; };
+		F2389BD2F5A05D4CC5925024 /* Pods-Hiral_CoreData.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hiral_CoreData.release.xcconfig"; path = "Target Support Files/Pods-Hiral_CoreData/Pods-Hiral_CoreData.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +57,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E349A98526F3021700868A69 /* CoreData.framework in Frameworks */,
+				231772F9635E2FCDCFBA25E9 /* Pods_Hiral_CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B3C0DF6F768FB0CAAF41BD9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBBA17C8802E2CB77F791144 /* Pods-Hiral_CoreData.debug.xcconfig */,
+				F2389BD2F5A05D4CC5925024 /* Pods-Hiral_CoreData.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E349A97C26F2F9A400868A69 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E349A97D26F2F9CE00868A69 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		E349A98326F3021700868A69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E349A98426F3021700868A69 /* CoreData.framework */,
+				98F62CBA9B09617A267DFF2D /* Pods_Hiral_CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E349A98626F302B600868A69 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E349A97F26F3019B00868A69 /* Users+CoreDataClass.swift */,
+				E349A98026F3019B00868A69 /* Users+CoreDataProperties.swift */,
+				E349A98726F302E500868A69 /* DatabaseHelper.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		E3514D2C26F20ABD00DC754D = {
 			isa = PBXGroup;
 			children = (
 				E3514D3726F20ABE00DC754D /* Hiral_CoreData */,
 				E3514D3626F20ABE00DC754D /* Products */,
+				E349A98326F3021700868A69 /* Frameworks */,
+				1B3C0DF6F768FB0CAAF41BD9 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +123,79 @@
 		E3514D3726F20ABE00DC754D /* Hiral_CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				E3514D3826F20ABE00DC754D /* AppDelegate.swift */,
-				E3514D3A26F20ABE00DC754D /* SceneDelegate.swift */,
-				E3514D3C26F20ABE00DC754D /* ViewController.swift */,
-				E3514D3E26F20ABE00DC754D /* Main.storyboard */,
+				E3514D4F26F20B7900DC754D /* AppDelegate */,
+				E349A98626F302B600868A69 /* CoreData */,
+				E349A97C26F2F9A400868A69 /* Utilities */,
+				E3514D5B26F222C300DC754D /* Extension */,
+				E3514D5526F21E6200DC754D /* Controller */,
+				E3514D5726F21E8500DC754D /* View */,
 				E3514D4426F20AC700DC754D /* Assets.xcassets */,
-				E3514D4626F20AC700DC754D /* LaunchScreen.storyboard */,
 				E3514D4926F20AC700DC754D /* Info.plist */,
 				E3514D4126F20ABE00DC754D /* Hiral_CoreData.xcdatamodeld */,
 			);
 			path = Hiral_CoreData;
+			sourceTree = "<group>";
+		};
+		E3514D4F26F20B7900DC754D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E3514D3A26F20ABE00DC754D /* SceneDelegate.swift */,
+				E3514D3826F20ABE00DC754D /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E3514D5026F20B8C00DC754D /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				E3514D3C26F20ABE00DC754D /* LoginViewController.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		E3514D5126F2177C00DC754D /* SignupVC */ = {
+			isa = PBXGroup;
+			children = (
+				E3514D5326F2179D00DC754D /* SignupViewController.swift */,
+			);
+			path = SignupVC;
+			sourceTree = "<group>";
+		};
+		E3514D5526F21E6200DC754D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E3514D5026F20B8C00DC754D /* LoginVC */,
+				E3514D5126F2177C00DC754D /* SignupVC */,
+				E3514D5626F21E6E00DC754D /* DataDisplayVC */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E3514D5626F21E6E00DC754D /* DataDisplayVC */ = {
+			isa = PBXGroup;
+			children = (
+				E3514D5826F21EA500DC754D /* DataDisplayViewController.swift */,
+			);
+			path = DataDisplayVC;
+			sourceTree = "<group>";
+		};
+		E3514D5726F21E8500DC754D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E3514D3E26F20ABE00DC754D /* Main.storyboard */,
+				E3514D4626F20AC700DC754D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E3514D5B26F222C300DC754D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3514D5C26F2233200DC754D /* String + Extension.swift */,
+				E3514D5E26F2235800DC754D /* UIAlertController + Extension.swift */,
+				E3514D6026F2237E00DC754D /* UIViewController + Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3514D4C26F20AC700DC754D /* Build configuration list for PBXNativeTarget "Hiral_CoreData" */;
 			buildPhases = (
+				D13CB0DB6EDF01540931B1DB /* [CP] Check Pods Manifest.lock */,
 				E3514D3126F20ABE00DC754D /* Sources */,
 				E3514D3226F20ABE00DC754D /* Frameworks */,
 				E3514D3326F20ABE00DC754D /* Resources */,
+				CB53C598348C2D32A75D53FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,15 +265,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		CB53C598348C2D32A75D53FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hiral_CoreData/Pods-Hiral_CoreData-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hiral_CoreData/Pods-Hiral_CoreData-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hiral_CoreData/Pods-Hiral_CoreData-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D13CB0DB6EDF01540931B1DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hiral_CoreData-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E3514D3126F20ABE00DC754D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3514D3D26F20ABE00DC754D /* ViewController.swift in Sources */,
+				E3514D5F26F2235800DC754D /* UIAlertController + Extension.swift in Sources */,
+				E3514D6126F2237E00DC754D /* UIViewController + Extension.swift in Sources */,
+				E3514D3D26F20ABE00DC754D /* LoginViewController.swift in Sources */,
+				E3514D5926F21EA500DC754D /* DataDisplayViewController.swift in Sources */,
+				E3514D5D26F2233200DC754D /* String + Extension.swift in Sources */,
+				E349A98126F3019B00868A69 /* Users+CoreDataClass.swift in Sources */,
 				E3514D4326F20ABE00DC754D /* Hiral_CoreData.xcdatamodeld in Sources */,
+				E3514D5426F2179D00DC754D /* SignupViewController.swift in Sources */,
 				E3514D3926F20ABE00DC754D /* AppDelegate.swift in Sources */,
+				E349A97E26F2F9CE00868A69 /* Utilities.swift in Sources */,
+				E349A98226F3019B00868A69 /* Users+CoreDataProperties.swift in Sources */,
 				E3514D3B26F20ABE00DC754D /* SceneDelegate.swift in Sources */,
+				E349A98826F302E500868A69 /* DatabaseHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,10 +468,12 @@
 		};
 		E3514D4D26F20AC700DC754D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBBA17C8802E2CB77F791144 /* Pods-Hiral_CoreData.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUP7XPTXW7;
 				INFOPLIST_FILE = Hiral_CoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,10 +488,12 @@
 		};
 		E3514D4E26F20AC700DC754D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2389BD2F5A05D4CC5925024 /* Pods-Hiral_CoreData.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KUP7XPTXW7;
 				INFOPLIST_FILE = Hiral_CoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
